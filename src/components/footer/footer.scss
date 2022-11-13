@@ -1,0 +1,36 @@
+.footerContainer {
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+}
+
+.topsection,
+.bottomSection {
+    width: 100%;
+    padding: 0px 40px 0px 40px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.topsection {
+    border-bottom: 1px solid rgba(159, 156, 156, 0.408);
+}
+
+.leftSection,
+.rightSection {
+    display: flex;
+    column-gap: 40px;
+    flex-wrap: wrap;
+}
+
+span {
+    color: rgb(120, 125, 130);
+    font-size: 110%;
+}

@@ -1,0 +1,95 @@
+.landingContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+  align-items: center;
+  margin-top: -80px;
+}
+
+.googleLogo {
+  width: 350px;
+}
+
+.searchBarDiv {
+  width: 40%;
+  margin: 10px;
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchBar {
+  height: 100%;
+  width: 100%;
+  border: 0.6px solid rgba(128, 128, 128, 0.452);
+  border-radius: 25px;
+  padding: 0 100px 0 50px;
+  font-size: 120%;
+  color: rgba(128, 128, 128, 0.998);
+  outline: none;
+}
+
+.searchBar:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Icn {
+  position: absolute;
+  height: 70%;
+}
+
+.magGlass {
+  left: 20px;
+  top: 17px;
+  opacity: 50%;
+}
+
+.mic {
+  right: 60px;
+}
+
+.lens {
+  right: 20px;
+}
+
+.bottomsectionsButtons {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.button1,
+.button2 {
+  background-color: rgb(242, 242, 242);
+  height: auto;
+  width: auto;
+  padding: 8px 15px 8px 15px;
+  font-size: larger;
+  border-radius: 5px;
+}
+
+.bottomsectionText {
+  font-size: large;
+  display: flex;
+  gap: 10px;
+}
+
+.bottomsectionText span {
+  color: rgb(91, 82, 195);
+  font-size: 90%;
+}
+
+.bottomsectionText span:hover {
+  -webkit-text-decoration: underline rgb(91, 82, 195);
+          text-decoration: underline rgb(91, 82, 195);
+  transform: scale(1.01);
+  cursor: pointer;
+}/*# sourceMappingURL=landing.css.map */

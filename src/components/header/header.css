@@ -1,0 +1,44 @@
+.headerContainer {
+  width: 100%;
+  height: 80px;
+  padding: 5px 25px 5px 25px;
+  background-color: transparent;
+  color: black;
+  display: flex;
+  gap: 25px;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.gmailText,
+.imagesText {
+  font-size: 100%;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.ninedotsdiv {
+  height: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.ninedots {
+  height: 100%;
+}
+
+.signInButton {
+  width: 120px;
+  height: 45px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: rgb(26, 115, 232);
+  color: white;
+  font-size: 125%;
+}/*# sourceMappingURL=header.css.map */
